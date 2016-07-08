@@ -1,0 +1,27 @@
+FYI ниже письмом как настроить автоматическое оповещение в  teamcity 
+
+Фильтр для PROD:  project = SUBS AND component = BRT_SRV 
+
+Сервер UNIX:  srv2-ia64ux31-2
+Cервер WIN12: srv2-drse-ocsg1  
+
+WKS-3PD-TELG06 BIS MBUS TOMCAT
+ntdtlcom
+
+srv2-x64rh6-02_ntdtlcom\
+01 - сборка
+02 - ручное тестирование
+03 - авто тесты
+
+RST1_VIRTUAL2.net.billing.ru =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = WKS-3PD-TELG2.net.billing.ru)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = rst1.net.billing.ru)
+    )
+  ) 
+  
+  
